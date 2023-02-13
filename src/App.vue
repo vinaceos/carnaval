@@ -1,26 +1,23 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <MenuSuperior/>
+  <SeletorData></SeletorData>
+  <ListaDeBlocos></ListaDeBlocos>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import MenuSuperior from './components/MenuSuperior.vue'
+import SeletorData from './components/SeletorData.vue';
+import ListaDeBlocos from './components/ListaDeBlocos.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    MenuSuperior,
+    SeletorData,
+    ListaDeBlocos
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
 </style>
